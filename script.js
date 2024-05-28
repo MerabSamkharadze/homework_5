@@ -74,3 +74,11 @@ let sum = numbersString
   .map((item) => Number(item))
   .reduce((a, b) => a + b);
 console.log(sum);
+
+// task 10
+
+let numbers = [12, 23, 34, 45, 67, 32, 4, 3];
+
+let sumNumbers = (arr) => arr.reduce((a, b) => a + b);
+
+console.log(sumNumbers(numbers));
