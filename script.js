@@ -48,3 +48,14 @@ let filteredWords = words.filter(
   (item) => item.includes("m") || item.includes("M")
 );
 console.log(filteredWords);
+
+// task 7
+
+let link = "https://google.com";
+
+function check(string) {
+  string.includes("https://")
+    ? console.log("კი, მოიცავს!")
+    : console.log("არა, არ მოიცავს!");
+}
+check(link);
