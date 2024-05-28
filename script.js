@@ -59,3 +59,9 @@ function check(string) {
     : console.log("არა, არ მოიცავს!");
 }
 check(link);
+
+// task 8
+
+let array6 = [-1, -2, -3, 4];
+let isPositiveNumber = array6.some((item) => item > 0);
+console.log(isPositiveNumber);
