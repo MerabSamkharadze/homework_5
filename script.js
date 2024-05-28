@@ -12,3 +12,12 @@ let array2New = array2.map((item) =>
     : item
 );
 console.log(array2New);
+
+// task 2
+
+let userAnswer = prompt("საქართველოს დედაქალაქი?");
+let corectAnswer = "tbilisi";
+
+userAnswer.toLowerCase() === corectAnswer
+  ? console.log("პასუხი სწორია!👏")
+  : console.log("პასუხი არასწორია 😔");
