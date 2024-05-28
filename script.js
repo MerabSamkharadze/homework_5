@@ -21,3 +21,9 @@ let corectAnswer = "tbilisi";
 userAnswer.toLowerCase() === corectAnswer
   ? console.log("პასუხი სწორია!👏")
   : console.log("პასუხი არასწორია 😔");
+
+// task 3
+
+let array5 = [12, 25, 3, 6, 8, 14, 7, 23];
+let array5New = array5.map((item) => item / 3);
+console.log(array5New);
