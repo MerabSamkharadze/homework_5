@@ -39,3 +39,12 @@ console.log(array1New);
 let languages = ["html", "css", "javascript", "python", "php"];
 let languagesNew = languages.filter((item) => item.length > 3);
 console.log(languagesNew);
+
+// task 6
+
+let words = ["Madrid", "rome", "Milan", "berlin"];
+// let filteredWords = words.filter(item=>item.toLowerCase().includes('m'))
+let filteredWords = words.filter(
+  (item) => item.includes("m") || item.includes("M")
+);
+console.log(filteredWords);
