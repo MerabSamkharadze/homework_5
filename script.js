@@ -65,3 +65,12 @@ check(link);
 let array6 = [-1, -2, -3, 4];
 let isPositiveNumber = array6.some((item) => item > 0);
 console.log(isPositiveNumber);
+
+// task 9
+
+let numbersString = "12345";
+let sum = numbersString
+  .split("")
+  .map((item) => Number(item))
+  .reduce((a, b) => a + b);
+console.log(sum);
