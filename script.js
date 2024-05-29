@@ -82,3 +82,12 @@ let numbers = [12, 23, 34, 45, 67, 32, 4, 3];
 let sumNumbers = (arr) => arr.reduce((a, b) => a + b);
 
 console.log(sumNumbers(numbers));
+
+// task 11
+
+let arr1 = [1, 2];
+let arr2 = [3, 4];
+let arr3 = [5, 6];
+
+let newArr = arr1.concat(arr2, arr3);
+console.log(newArr);
